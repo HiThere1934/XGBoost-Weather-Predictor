@@ -6,3 +6,5 @@ The program obtains weather data using Open Meteo's free API. It then creates a 
 The program splits the data set into a training and testing set, then normalizes every input feature for the training data set except for dates before feeding into the XGBoost model to prevent testing data from contaminating the training data. 
 
 Matplotlib is then used to plot the Expected vs. True minimum temperature, and an R^2 and RMSE value is derived. 
+
+Intending to add modelling for locations of the user's choosing, and comparing different weather trends in different locations. 
